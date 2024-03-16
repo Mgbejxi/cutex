@@ -11,8 +11,10 @@ const Nav: React.FC = () => {
   const [isUser, setIsUser] = useState(false);
   const links = [
     { name: "Home", url: "/" },
-    { name: "Why Cuttr", url: "#whyUs" },
+    { name: "Why CuteX", url: "#whyUs" },
     { name: "FAQs", url: "#faqs" },
+    { name: "Blog Posts", url: "#faqs" },
+    { name: "CuteX +", url: "plus" }
   ];
 
   const showNav = () => {
@@ -26,13 +28,13 @@ const Nav: React.FC = () => {
     });
   });
   return (
-    <nav className="w-full flex items-center justify-start lg:justify-evenly lg:shadow-md lg:shadow-cyan-500 lg:p-3 lg:rounded-lg lg:backdrop-blur-sm">
+    <nav className="w-full flex items-center justify-start lg:justify-evenly lg:shadow-md lg:shadow-loam lg:p-3 lg:rounded-lg lg:backdrop-blur-sm">
       <h1 className="hidden md:w-[15%] font-bold tracking-tighter text-accent text-4xl h-[50px] px-2 lg:flex items-baseline self-start">
-        Cut<span className="text-cyan-500">eX</span> <Icon.Link size="30px" />
+        Cut<span className="text-purple-300">eX</span> <Icon.Link size="30px" />
       </h1>
 
       {/* Mobile nav */}
-      <h1 className="shadow-md shadow-cyan p-3 rounded-lg lg:hidden fixed w-screen backdrop-blur-sm z-40 font-bold tracking-tighter text-accent text-3xl flex items-baseline self-start">
+      <h1 className="shadow-md shadow-loam p-3 rounded-lg lg:hidden fixed w-screen backdrop-blur-sm z-40 font-bold tracking-tighter text-accent text-3xl flex items-baseline self-start">
         CuteX <Icon.Link size="30px" />
       </h1>
       <div className="lg:hidden">

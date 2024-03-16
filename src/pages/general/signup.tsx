@@ -208,6 +208,8 @@ const SignUp: React.FC = () => {
           Sign In here
         </Link>
       </p>
+      <div>
+      </div>
     </div>
   );
 };

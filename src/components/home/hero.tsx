@@ -25,6 +25,7 @@ const Hero: React.FC = () => {
           <br />
           links with ease.
         </p>
+        <br />
         <p className="text-lg ">
           <span className="text-purple-300 font-bold">CuteX</span> - Shorten Your
           Links, Master Your Crafts!

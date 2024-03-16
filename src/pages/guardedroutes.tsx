@@ -1,14 +1,14 @@
-// ****************** firebase imports
+//  firebase imports
 import auth from "../firebase/auth";
 import { onAuthStateChanged } from "firebase/auth";
 
-// ****************** React Hooks
+//  React Hooks
 import { useEffect, useState } from "react";
 
-// ****************** React Router
+//  React Router
 import { Outlet, useNavigate, NavLink } from "react-router-dom";
 
-// ****************** Icons Imports
+//  Icons Imports
 import closeMenu from "../assets/icons/close.svg";
 import hamMenu from "../assets/icons/burger-menu.svg";
 
@@ -30,7 +30,7 @@ const GuardedRoutes: React.FC = () => {
       setTitle("Settings");
     } else setTitle("Dashboard");
 
-    // ****************** Checks if user is signed in and decides what pages to render based on the the result
+    // Checks if user is signed in and decides what pages to render based on the the result
     onAuthStateChanged(auth, (user) => {
       if (!user) {
         navigate("/signin");
@@ -44,7 +44,7 @@ const GuardedRoutes: React.FC = () => {
 
   return (
     <div className="min-h-screen text-text flex flex-col md:flex-row">
-      {/* mobile Nav */}
+      {/ mobile Nav /}
       <h1 className="text-accent p-5 font-bold border-b border-accent rounded-lg lg:hidden fixed w-screen backdrop-blur-sm z-40">
         {title}
       </h1>
@@ -78,7 +78,7 @@ const GuardedRoutes: React.FC = () => {
       <div className="hidden w-screen lg:w-64 lg:min-h-screen p-7 px-3 shadow-md shadow-accent rounded-lg lg:flex flex-col fixed bg-background">
         <NavLink
           to="/dashboard"
-          className="p-3 font-bold text-text border-b border-accent"
+          className="p-3 font-bold text-text border-b border-cyan"
         >
           Dashboard
         </NavLink>

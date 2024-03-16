@@ -1,5 +1,5 @@
 // firebase imports
-import { getAuth } from "firebase/auth";
+import { getAuth, } from "firebase/auth";
 import app from "./firebaseConfig";
 
 // Auth Instance
