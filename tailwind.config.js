@@ -7,7 +7,7 @@ export default {
         background: "hsl(265, 11%, 22%)",
         accent: "hsl(45, 70%, 56%)",
         bar: "hsl(38, 94%, 49%)", 
-        blue: "hsl(192, 91%, 49%)", 
+        orange: "hsl(29, 91%, 49%)", 
         bg: "hsl(265, 88%, 20%)",
         cyan: "hsl(192, 95%, 24%)", 
         loam: "hsl(44, 30%, 88%)",

@@ -27,12 +27,12 @@ const WhyUs: React.FC = () => {
     {
       icon: <Icon.Share2 size="50px" />,
       title: "Shareability",
-      desc: "Cuttr links are snappy and shareable, making them easy to share on social media platforms.",
+      desc: "CuteX links are snappy and shareable, making them easy to share on social media platforms.",
     },
     {
       icon: <Icon.Zap size="50px" />,
       title: "Fast",
-      desc: "Cuttr links are concise and load faster than long URLs, improving user experience.",
+      desc: "CuteX links are concise and load faster than long URLs, improving user experience.",
     },
     {
       icon: <Icon.Edit size="50px" />,
@@ -42,16 +42,16 @@ const WhyUs: React.FC = () => {
     {
       icon: <Icon.Activity size="50px" />,
       title: "Analytics",
-      desc: "Cuttr provides analytic tools with which you can track the performance of your links with. Figure out what's working and what's not.",
+      desc: "CuteX provides analytic tools with which you can track the performance of your links with. Figure out what's working and what's not.",
     },
     {
       title: "QR Codes",
-      desc: "Cuttr provides QR codes for your links, making it easier for your audience to access your content.",
+      desc: "CuteX provides QR codes for your links, making it easier for your audience to access your content.",
     },
     {
       icon: <Icon.DollarSign size="50px" />,
       title: "Affordable",
-      desc: "Cuttr has different pricing plans to suit your needs. You can choose between free and paid plans.",
+      desc: "CuteX has different pricing plans to suit your needs. You can choose between free and paid plans.",
     },
   ];
 

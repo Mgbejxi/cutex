@@ -13,7 +13,7 @@ const Nav: React.FC = () => {
     { name: "Home", url: "/" },
     { name: "Why CuteX", url: "#whyUs" },
     { name: "FAQs", url: "#faqs" },
-    { name: "Blog Posts", url: "#faqs" },
+    { name: "Blog Posts", url: "" },
     { name: "CuteX +", url: "plus" }
   ];
 
